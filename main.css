@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 1198px;
+  margin: auto;
+}
+body {
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 8px 0px;
+  justify-content: center;
+  align-items: center;
+  background: #101010;
+}
+.header_text {
+  width: 50px;
+  height: 42px;
+  color: #fff;
+}
+
+.part1 {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.tittle {
+  margin: auto;
+  color: #303030;
+  text-align: center;
+  font-size: 80px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 66px;
+  margin-top: 40px;
+}
+
+.picture {
+  width: 17%;
+  display: block;
+  flex-wrap: wrap;
+  max-width: 250px;
+  border-radius: 14px;
+}
+
+.part2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+  position: relative;
+}
+
+.part2_text {
+  display: flex;
+  flex-direction: column;
+  gap: 124px;
+}
+
+.title2 {
+  width: 358px;
+  height: 160px;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  color: #1ac74a;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.title3 {
+  color: #303030;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  width: 400px;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #101010;
+  margin-top: 20px;
+}
+
+.dayp {
+  color: #303030;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.location {
+  display: flex;
+  width: 231px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.area {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.place {
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.part2_size {
+  display: block;
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  opacity: 0;
+}
+
+.card:hover {
+  background-color: #171717;
+  color: #d9d9d9;
+}
+.card:hover + .part2_size {
+  opacity: 3;
+  transition: 1s;
+  height: auto;
+}
+
+.card:hover .dayp {
+  color: #d9d9d9;
+}
+
+.day:hover {
+  color: #d9d9d9;
+}
+
+.prt3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.prt3_title {
+  margin: auto;
+  width: 299px;
+  height: 160px;
+  text-align: center;
+}
+.luxury {
+  display: flex;
+  width: 308px;
+  min-height: 370px;
+  margin-top: 80px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  background: #fff;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+li {
+  color: #777;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #303030;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.pricings {
+  gap: 12px;
+}
+
+.money {
+  color: #303030;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+  width: 100%;
+  padding: 40px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #171717;
+  margin-top: 131px;
+}
+
+.ready {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.order {
+  display: inline-flex;
+  padding: 1px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #18ba51;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 80px 120px;
+  gap: 10px;
+  border-top: 1px solid #1ac74a;
+  background: #101010;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.bot_pine {
+  display: flex;
+  width: 1200px;
+  max-width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fbin {
+  display: flex;
+  width: 381px;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.fb {
+  display: flex;
+  min-height: 44px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #303030;
+  color: #fff;
+}
+.ig {
+  display: flex;
+  min-height: 44px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #303030;
+  color: #fff;
+}
